@@ -34,7 +34,7 @@ export default function Counter(){
  
   return(
     <div className='mx-auto w-96 my-60'>
-    <h1 className='text-16 bg-blue-800 text-slate-300 py-2 text-center w-78 '>COUNTER</h1>
+    <h1 className='text-16 bg-blue-800 text-slate-300 py-2 text-center w-80 '>COUNTER</h1>
     <div className='flex bg-blue-300 w-80 h-20 items-center justify-center'>
       
       <button onClick={()=>setCount(count+5)}  className='bg-slate-600 text-white rounded-lg px-2 mr-2'>+5</button>
